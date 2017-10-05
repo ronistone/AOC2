@@ -1,0 +1,29 @@
+|example46
+sw[0] => ledr.DATAB
+sw[1] => ledr.DATAB
+sw[2] => ledr.DATAB
+sw[3] => ledr.DATAB
+sw[4] => ledr.DATAB
+sw[5] => ledr.DATAB
+sw[6] => ledr.DATAB
+sw[7] => ledr.DATAB
+sw[8] => ledr.DATAB
+sw[9] => ledr.DATAB
+sw[10] => ledr.DATAB
+sw[11] => ledr.DATAB
+sw[12] => ledr.DATAA
+sw[13] => ledr.DATAA
+sw[14] => ledr.DATAA
+sw[15] => ledr.DATAA
+sw[16] => Equal0.IN0
+sw[16] => Equal1.IN1
+sw[16] => Equal2.IN1
+sw[17] => Equal0.IN1
+sw[17] => Equal1.IN0
+sw[17] => Equal2.IN0
+ledr[0] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+
+

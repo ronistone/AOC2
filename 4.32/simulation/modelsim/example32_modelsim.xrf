@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/4.32/example32.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/4.32/db/example32.cbx.xml
+design_name = hard_block
+design_name = example32
+instance = comp, \y~output\, y~output, example32, 1
+instance = comp, \xz~input\, xz~input, example32, 1
+instance = comp, \a~input\, a~input, example32, 1
+instance = comp, \state~0\, state~0, example32, 1
+instance = comp, \reset~input\, reset~input, example32, 1
+instance = comp, \y~0\, y~0, example32, 1

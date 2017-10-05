@@ -1,0 +1,11 @@
+|example47
+sw[2] => LEDR.IN1
+sw[2] => LEDR.IN1
+sw[1] => p.IN0
+sw[1] => LEDR.IN0
+sw[0] => p.IN1
+sw[0] => LEDR.IN1
+LEDR[1] << LEDR.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[0] << LEDR.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,13 @@
+|example44
+sw[0] => ledr.IN1
+sw[1] => ledr.IN1
+sw[2] => ledr.IN1
+sw[3] => ledr.IN1
+sw[4] => ledr.IN1
+sw[5] => ledr.IN1
+sw[6] => ledr.IN0
+sw[7] => ledr.IN1
+ledr[0] << ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] << <GND>
+
+

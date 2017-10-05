@@ -1,0 +1,47 @@
+|example15
+sw[0] => example10:t0.sw[0]
+sw[1] => example10:t0.sw[1]
+sw[2] => example10:t0.sw[2]
+sw[3] => example10:t0.sw[3]
+sw[4] => example10:t1.sw[0]
+sw[5] => example10:t1.sw[1]
+sw[6] => example10:t1.sw[2]
+sw[7] => example10:t1.sw[3]
+sw[8] => example10:t0.sw[4]
+sw[8] => example10:t1.sw[4]
+ledr[0] <= ledr[0].DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= ledr[1].DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= ledr[2].DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= ledr[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|example15|example10:t0
+sw[0] => ledr[0].DATAIN
+sw[1] => ledr[1].DATAIN
+sw[2] => ledr[2].DATAIN
+sw[3] => ledr[3].DATAIN
+sw[4] => ledr[0].OE
+sw[4] => ledr[1].OE
+sw[4] => ledr[2].OE
+sw[4] => ledr[3].OE
+ledr[0] <= ledr[0].DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= ledr[1].DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= ledr[2].DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= ledr[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|example15|example10:t1
+sw[0] => ledr[0].DATAIN
+sw[1] => ledr[1].DATAIN
+sw[2] => ledr[2].DATAIN
+sw[3] => ledr[3].DATAIN
+sw[4] => ledr[0].OE
+sw[4] => ledr[1].OE
+sw[4] => ledr[2].OE
+sw[4] => ledr[3].OE
+ledr[0] <= ledr[0].DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= ledr[1].DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= ledr[2].DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= ledr[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

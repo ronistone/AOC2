@@ -1,0 +1,8 @@
+|example32
+xz => state.CLK
+reset => state.ACLR
+a => y.IN1
+a => state.DATAIN
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

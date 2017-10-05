@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/4.30/example430.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/4.30/db/example430.cbx.xml
+design_name = hard_block
+design_name = example430
+instance = comp, \y~output\, y~output, example430, 1
+instance = comp, \clk~input\, clk~input, example430, 1
+instance = comp, \state.S1~0\, state.S1~0, example430, 1
+instance = comp, \reset~input\, reset~input, example430, 1
+instance = comp, \state.S1\, state.S1, example430, 1
+instance = comp, \nextstate.S0~0\, nextstate.S0~0, example430, 1
+instance = comp, \state.S0\, state.S0, example430, 1

@@ -1,0 +1,83 @@
+|example14
+sw[0] => example45:lowmux.sw[0]
+sw[1] => example45:lowmux.sw[1]
+sw[2] => example45:lowmux.sw[2]
+sw[3] => example45:lowmux.sw[3]
+sw[4] => example45:lowmux.sw[4]
+sw[5] => example45:lowmux.sw[5]
+sw[6] => example45:lowmux.sw[6]
+sw[7] => example45:lowmux.sw[7]
+sw[8] => example45:highmux.sw[0]
+sw[9] => example45:highmux.sw[1]
+sw[10] => example45:highmux.sw[2]
+sw[11] => example45:highmux.sw[3]
+sw[12] => example45:highmux.sw[4]
+sw[13] => example45:highmux.sw[5]
+sw[14] => example45:highmux.sw[6]
+sw[15] => example45:highmux.sw[7]
+sw[16] => example45:lowmux.sw[8]
+sw[16] => example45:highmux.sw[8]
+sw[17] => example45:finalmux.sw[8]
+ledr[0] <= example45:finalmux.ledr[0]
+ledr[1] <= example45:finalmux.ledr[1]
+ledr[2] <= example45:finalmux.ledr[2]
+ledr[3] <= example45:finalmux.ledr[3]
+
+
+|example14|example45:lowmux
+sw[0] => ledr.DATAB
+sw[1] => ledr.DATAB
+sw[2] => ledr.DATAB
+sw[3] => ledr.DATAB
+sw[4] => ledr.DATAA
+sw[5] => ledr.DATAA
+sw[6] => ledr.DATAA
+sw[7] => ledr.DATAA
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+ledr[0] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|example14|example45:highmux
+sw[0] => ledr.DATAB
+sw[1] => ledr.DATAB
+sw[2] => ledr.DATAB
+sw[3] => ledr.DATAB
+sw[4] => ledr.DATAA
+sw[5] => ledr.DATAA
+sw[6] => ledr.DATAA
+sw[7] => ledr.DATAA
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+ledr[0] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|example14|example45:finalmux
+sw[0] => ledr.DATAB
+sw[1] => ledr.DATAB
+sw[2] => ledr.DATAB
+sw[3] => ledr.DATAB
+sw[4] => ledr.DATAA
+sw[5] => ledr.DATAA
+sw[6] => ledr.DATAA
+sw[7] => ledr.DATAA
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+sw[8] => ledr.OUTPUTSELECT
+ledr[0] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+
+
