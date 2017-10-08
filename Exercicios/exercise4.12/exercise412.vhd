@@ -1,0 +1,22 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.all;
+
+entity exercise412 is
+port(SW: in STD_LOGIC_VECTOR(7 downto 0);
+LEDR: out STD_LOGIC_VECTOR(7 downto 0));
+end;
+architecture synth of exercise412 is
+begin
+process(all) begin
+if SW(7) then LEDR <= "10000000";
+elsif SW(6) then LEDR <= "01000000";
+elsif SW(5) then LEDR <= "00100000";
+elsif SW(4) then LEDR <= "00010000";
+elsif SW(3) then LEDR <= "00001000";
+elsif SW(2) then LEDR <= "00000100";
+elsif SW(1) then LEDR <= "00000010";
+elsif SW(0) then LEDR <= "00000001";
+else LEDR <= "00000000";
+end if;
+end process;
+end;

@@ -1,0 +1,15 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.all;
+
+entity exercise452 is
+port(SW: in STD_LOGIC_VECTOR(4 downto 0);
+LEDR: out STD_LOGIC_VECTOR(3 downto 0));
+end;
+
+architecture synth of exercise452 is
+begin
+process(SW(0)) begin
+if SW(0)='1' then LEDR <= SW;
+end if;
+end process;
+end;
