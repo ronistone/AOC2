@@ -59,3 +59,24 @@ elsif SW(0) then LEDR <="0001";
 end if;
 end process;
 end;
+
+architecture synth of exercise452_E is
+type statetype is (S0, S1, S2);
+signal state, nextstate: statetype;
+begin
+process(SW(0), SW(1)) begin
+if SW(1) then state <=S0;
+elsif rising_edge(SW(0)) then
+state <=nextstate;
+end if;
+end process;
+process(state) begin
+case state is
+when S0=> nextstate <=S1;
+when S1=> nextstate <=S2;
+when S2=> nextstate <=S0;
+end case;
+end process;
+LEDR<='1' when state= S0 else '0';
+end;
+
