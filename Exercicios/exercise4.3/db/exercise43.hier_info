@@ -1,0 +1,8 @@
+|exercise43
+SW[0] => LEDR.IN0
+SW[1] => LEDR.IN1
+SW[2] => LEDR.IN1
+SW[3] => LEDR.IN1
+LEDR << LEDR.DB_MAX_OUTPUT_PORT_TYPE
+
+
