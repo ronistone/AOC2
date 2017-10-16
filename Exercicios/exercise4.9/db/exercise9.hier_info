@@ -1,0 +1,22 @@
+|exercise9
+a => exercise48:exercise48_1.s[2]
+b => exercise48:exercise48_1.s[1]
+c => exercise48:exercise48_1.s[0]
+ledg[0] <= exercise48:exercise48_1.y[0]
+
+
+|exercise9|exercise48:exercise48_1
+d0[0] => Mux0.IN0
+d1[0] => Mux0.IN1
+d2[0] => Mux0.IN2
+d3[0] => Mux0.IN3
+d4[0] => Mux0.IN4
+d5[0] => Mux0.IN5
+d6[0] => Mux0.IN6
+d7[0] => Mux0.IN7
+s[0] => Mux0.IN10
+s[1] => Mux0.IN9
+s[2] => Mux0.IN8
+y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
