@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.27/exercise27.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.27/db/exercise27.cbx.xml
+design_name = hard_block
+design_name = exercise27
+instance = comp, \q~output\, q~output, exercise27, 1
+instance = comp, \clk~input\, clk~input, exercise27, 1
+instance = comp, \j~input\, j~input, exercise27, 1
+instance = comp, \q~reg0_Duplicate_1\, q~reg0_Duplicate_1, exercise27, 1
+instance = comp, \k~input\, k~input, exercise27, 1
+instance = comp, \q~2\, q~2, exercise27, 1
+instance = comp, \q~reg0\, q~reg0, exercise27, 1
+instance = comp, \q~input\, q~input, exercise27, 1

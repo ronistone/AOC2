@@ -1,0 +1,35 @@
+-- altera vhdl_input_version vhdl_2008
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity exercise19 is
+	port(	SW: in STD_LOGIC_VECTOR(3 downto 0);
+			p, d: out STD_LOGIC);
+end;
+
+architecture synth of exercise19 is
+	signal vars: STD_LOGIC_VECTOR(1 downto 0);
+begin
+	p <= vars(1);
+	d <= vars(0);
+	process(all) begin
+		case SW is
+			when X"0"	=> vars <= "00";
+			when X"1"	=> vars <= "00";
+			when X"2"	=> vars <= "10";
+			when X"3"	=> vars <= "11";
+			when X"4"	=> vars <= "00";
+			when X"5"	=> vars <= "10";
+			when X"6"	=> vars <= "01";
+			when X"7"	=> vars <= "10";
+			when X"8"	=> vars <= "00";
+			when X"9"	=> vars <= "01";
+			when X"A"	=> vars <= "00";
+			when X"B"	=> vars <= "10";
+			when X"C"	=> vars <= "01";
+			when X"D"	=> vars <= "10";
+			when X"E"	=> vars <= "00";
+			when X"F"	=> vars <= "01";
+			when others => vars <= "00";
+		end case;
+	end process;
+end;

@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.19/exercise19.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.19/db/exercise19.cbx.xml
+design_name = hard_block
+design_name = exercise19
+instance = comp, \p~output\, p~output, exercise19, 1
+instance = comp, \d~output\, d~output, exercise19, 1
+instance = comp, \SW[3]~input\, SW[3]~input, exercise19, 1
+instance = comp, \SW[2]~input\, SW[2]~input, exercise19, 1
+instance = comp, \SW[1]~input\, SW[1]~input, exercise19, 1
+instance = comp, \SW[0]~input\, SW[0]~input, exercise19, 1
+instance = comp, \Mux0~0\, Mux0~0, exercise19, 1
+instance = comp, \Mux1~0\, Mux1~0, exercise19, 1

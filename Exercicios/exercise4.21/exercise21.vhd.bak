@@ -1,0 +1,55 @@
+entity exercise21 is
+	port(	a: in STD_LOGIC_VECTOR(7 downto 0);
+			y, z: out STD_LOGIC_VECTOR(2 downto 0);
+			none: out STD_LOGIC);
+end;
+architecture synth of exercise21 is
+begin
+	process(all) begin
+		case? a is
+			when "00000000" => y <= "000"; none <= '1';
+			when "00000001" => y <= "000"; none <= '1';
+			when "0000001-" => y <= "000"; none <= '1';
+			when "000001--" => y <= "000"; none <= '1';
+			when "00001---" => y <= "000"; none <= '1';
+			when "0001----" => y <= "000"; none <= '1';
+			when "001-----" => y <= "000"; none <= '1';
+			when "01------" => y <= "000"; none <= '1';
+			when "1-------" => y <= "000"; none <= '1';
+			when others		 => y <= "000"; none <= '1';
+		end case?;
+		
+		case? a is
+			when "00000011" => z <= "000";
+			when "00000101" => z <= "000";
+			when "00001001" => z <= "000";
+			when "00001001" => z <= "000";
+			when "00010001" => z <= "000";
+			when "00100001" => z <= "000";
+			when "01000001" => z <= "000";
+			when "10000001" => z <= "000";
+			when "0000011-" => z <= "000";
+			when "0000101-" => z <= "000";
+			when "0001001-" => z <= "000";
+			when "0010001-" => z <= "000";
+			when "0100001-" => z <= "000";
+			when "1000001-" => z <= "000";
+			when "000011--" => z <= "000";
+			when "000101--" => z <= "000";
+			when "001001--" => z <= "000";
+			when "010001--" => z <= "000";
+			when "100001--" => z <= "000";
+			when "00011---" => z <= "000";
+			when "00101---" => z <= "000";
+			when "01001---" => z <= "000";
+			when "10001---" => z <= "000";
+			when "0011----" => z <= "000";
+			when "0101----" => z <= "000";
+			when "1001----" => z <= "000";
+			when "011-----" => z <= "000";
+			when "101-----" => z <= "000";
+			when "11------" => z <= "000";
+			when others		 => z <= "000";
+		end case?;
+	end process;
+end;

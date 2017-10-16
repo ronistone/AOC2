@@ -1,0 +1,8 @@
+|exercise18
+a => Mux0.IN16
+b => Mux0.IN17
+c => Mux0.IN18
+d => Mux0.IN19
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

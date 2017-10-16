@@ -1,0 +1,11 @@
+|exercise27
+j => process_0.IN0
+j => process_0.IN0
+j => process_0.IN0
+k => process_0.IN1
+k => process_0.IN1
+k => process_0.IN1
+clk => q~reg0.CLK
+q <> q~reg0
+
+

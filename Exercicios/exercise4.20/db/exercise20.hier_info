@@ -1,0 +1,32 @@
+|exercise20
+SW[0] => Mux3.IN263
+SW[1] => Mux2.IN134
+SW[1] => Mux3.IN262
+SW[2] => Mux1.IN69
+SW[2] => Mux2.IN133
+SW[2] => Mux3.IN261
+SW[3] => Mux1.IN68
+SW[3] => Mux2.IN132
+SW[3] => Mux3.IN260
+SW[4] => Mux0.IN19
+SW[4] => Mux1.IN67
+SW[4] => Mux2.IN131
+SW[4] => Mux3.IN259
+SW[5] => Mux0.IN18
+SW[5] => Mux1.IN66
+SW[5] => Mux2.IN130
+SW[5] => Mux3.IN258
+SW[6] => Mux0.IN17
+SW[6] => Mux1.IN65
+SW[6] => Mux2.IN129
+SW[6] => Mux3.IN257
+SW[7] => Mux0.IN16
+SW[7] => Mux1.IN64
+SW[7] => Mux2.IN128
+SW[7] => Mux3.IN256
+LEDG[0] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[2] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+none <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+
+

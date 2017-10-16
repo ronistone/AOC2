@@ -1,0 +1,29 @@
+-- altera vhdl_input_version vhdl_2008
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity month31days is
+	port(	a: in STD_LOGIC_VECTOR(3 downto 0);
+			y: out STD_LOGIC);
+end;
+
+
+architecture synth of month31days is
+begin
+	process(all) begin
+		case a is
+			when X"1"	=> y <= '1';
+			when X"2"	=> y <= '0';
+			when X"3"	=> y <= '1';
+			when X"4"	=> y <= '0';
+			when X"5"	=> y <= '1';
+			when X"6"	=> y <= '0';
+			when X"7"	=> y <= '1';
+			when X"8"	=> y <= '1';
+			when X"9"	=> y <= '0';
+			when X"A"	=> y <= '1';
+			when X"B"	=> y <= '0';
+			when X"C"	=> y <= '1';
+			when others => y <= '0';
+		end case;
+	end process;
+end;
