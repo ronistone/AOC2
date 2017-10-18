@@ -1,0 +1,7 @@
+|exercise28
+d => n1.IN0
+clk => n1.IN1
+clk => n2.IN1
+LEDR <> LEDR
+
+

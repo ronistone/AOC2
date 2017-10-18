@@ -30,7 +30,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "exercise426")
-  (DATE "10/07/2017 09:15:49")
+  (DATE "10/16/2017 14:23:03")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition")
@@ -39,11 +39,11 @@
 
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-    (INSTANCE \\LEDR\~output\\)
+    (INSTANCE \\LEDR\[0\]\~output\\)
     (DELAY
       (ABSOLUTE
-        (PORT i (373:373:373) (388:388:388))
-        (IOPATH i o (2880:2880:2880) (2905:2905:2905))
+        (PORT i (3216:3216:3216) (3042:3042:3042))
+        (IOPATH i o (2866:2866:2866) (2908:2908:2908))
       )
     )
   )
@@ -70,10 +70,10 @@
     (INSTANCE \\Q2\~0\\)
     (DELAY
       (ABSOLUTE
-        (PORT datab (3112:3112:3112) (3359:3359:3359))
+        (PORT dataa (3086:3086:3086) (3356:3356:3356))
         (PORT datac (228:228:228) (260:260:260))
-        (PORT datad (3089:3089:3089) (3341:3341:3341))
-        (IOPATH datab combout (418:418:418) (425:425:425))
+        (PORT datad (2765:2765:2765) (3020:3020:3020))
+        (IOPATH dataa combout (417:417:417) (424:424:424))
         (IOPATH datac combout (287:287:287) (280:280:280))
         (IOPATH datad combout (155:155:155) (139:139:139))
       )

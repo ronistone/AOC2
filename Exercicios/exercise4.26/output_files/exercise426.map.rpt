@@ -1,5 +1,5 @@
 Analysis & Synthesis report for exercise426
-Sat Oct  7 09:14:06 2017
+Mon Oct 16 14:22:42 2017
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -44,7 +44,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Oct  7 09:14:06 2017       ;
+; Analysis & Synthesis Status        ; Successful - Mon Oct 16 14:22:42 2017       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; exercise426                                 ;
 ; Top-level Entity Name              ; exercise426                                 ;
@@ -69,6 +69,8 @@ agreement for further details.
 ; Device                                                                     ; EP4CE115F29C7      ;                    ;
 ; Top-level entity name                                                      ; exercise426        ; exercise426        ;
 ; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
+; VHDL Show LMF Mapping Messages                                             ; Off                ;                    ;
+; VHDL Version                                                               ; VHDL_2008          ; VHDL_1993          ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
 ; Enable compact report table                                                ; Off                ; Off                ;
@@ -77,7 +79,6 @@ agreement for further details.
 ; Preserve fewer node names                                                  ; On                 ; On                 ;
 ; OpenCore Plus hardware evaluation                                          ; Enable             ; Enable             ;
 ; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
-; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
 ; State Machine Processing                                                   ; Auto               ; Auto               ;
 ; Safe State Machine                                                         ; Off                ; Off                ;
 ; Extract Verilog State Machines                                             ; On                 ; On                 ;
@@ -152,7 +153,7 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 2           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -163,13 +164,13 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                      ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                               ; Library ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------+---------+
-; exercise426.vhd                  ; yes             ; User VHDL File  ; /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd ;         ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                              ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                       ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------+---------+
+; exercise426.vhd                  ; yes             ; User VHDL File  ; /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.26/exercise426.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -219,7 +220,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------+---+
 ; Logic Cell Name                                        ;   ;
 +--------------------------------------------------------+---+
-; LEDR~0                                                 ;   ;
+; LEDR[0]~0                                              ;   ;
 ; Number of logic cells representing combinational loops ; 1 ;
 +--------------------------------------------------------+---+
 Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
@@ -261,7 +262,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -271,32 +272,14 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Sat Oct  7 09:12:55 2017
+    Info: Processing started: Mon Oct 16 14:22:26 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off exercise426 -c exercise426
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file exercise426.vhd
-    Info (12022): Found design unit 1: exercise426-SRlatch File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 9
-    Info (12023): Found entity 1: exercise426 File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 4
+    Info (12022): Found design unit 1: exercise426-SRlatch File: /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.26/exercise426.vhd Line: 9
+    Info (12023): Found entity 1: exercise426 File: /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.26/exercise426.vhd Line: 4
 Info (12127): Elaborating entity "exercise426" for the top level hierarchy
-Warning (12069): Ignored assignment(s) for "LEDR[0]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[1]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[2]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[3]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[4]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[5]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[6]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[7]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[8]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[9]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[10]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[11]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[12]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[13]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[14]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[15]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[16]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
-Warning (12069): Ignored assignment(s) for "LEDR[17]" because "LEDR" is not a bus or array File: /home/gabriel/AOC2/Exercicios/exercise4.26/exercise426.vhd Line: 6
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -304,10 +287,10 @@ Info (21057): Implemented 4 device resources after synthesis - the final resourc
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 19 warnings
-    Info: Peak virtual memory: 957 megabytes
-    Info: Processing ended: Sat Oct  7 09:14:06 2017
-    Info: Elapsed time: 00:01:11
-    Info: Total CPU time (on all processors): 00:01:52
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 1084 megabytes
+    Info: Processing ended: Mon Oct 16 14:22:42 2017
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:37
 
 

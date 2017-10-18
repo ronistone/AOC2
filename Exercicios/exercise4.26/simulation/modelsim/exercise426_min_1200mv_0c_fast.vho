@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
 
--- DATE "10/07/2017 09:15:49"
+-- DATE "10/16/2017 14:23:03"
 
 -- 
 -- Device: Altera EP4CE115F29C7 Package FBGA780
@@ -78,12 +78,12 @@ USE IEEE.STD_LOGIC_1164.ALL;
 ENTITY 	exercise426 IS
     PORT (
 	SW : IN std_logic_vector(1 DOWNTO 0);
-	LEDR : BUFFER std_logic
+	LEDR : OUT std_logic_vector(0 DOWNTO 0)
 	);
 END exercise426;
 
 -- Design Ports Information
--- LEDR	=>  Location: PIN_AB26,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- LEDR[0]	=>  Location: PIN_G19,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- SW[1]	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- SW[0]	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
@@ -99,8 +99,8 @@ SIGNAL ww_devoe : std_logic;
 SIGNAL ww_devclrn : std_logic;
 SIGNAL ww_devpor : std_logic;
 SIGNAL ww_SW : std_logic_vector(1 DOWNTO 0);
-SIGNAL ww_LEDR : std_logic;
-SIGNAL \LEDR~output_o\ : std_logic;
+SIGNAL ww_LEDR : std_logic_vector(0 DOWNTO 0);
+SIGNAL \LEDR[0]~output_o\ : std_logic;
 SIGNAL \SW[1]~input_o\ : std_logic;
 SIGNAL \SW[0]~input_o\ : std_logic;
 SIGNAL \Q2~0_combout\ : std_logic;
@@ -127,8 +127,8 @@ PORT MAP (
 	devclrn => ww_devclrn,
 	devpor => ww_devpor);
 
--- Location: IOOBUF_X115_Y15_N2
-\LEDR~output\ : cycloneive_io_obuf
+-- Location: IOOBUF_X69_Y73_N16
+\LEDR[0]~output\ : cycloneive_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
@@ -137,7 +137,7 @@ GENERIC MAP (
 PORT MAP (
 	i => \ALT_INV_Q2~0_combout\,
 	devoe => ww_devoe,
-	o => \LEDR~output_o\);
+	o => \LEDR[0]~output_o\);
 
 -- Location: IOIBUF_X115_Y14_N1
 \SW[1]~input\ : cycloneive_io_ibuf
@@ -161,23 +161,23 @@ PORT MAP (
 	i => ww_SW(0),
 	o => \SW[0]~input_o\);
 
--- Location: LCCOMB_X114_Y15_N8
+-- Location: LCCOMB_X114_Y17_N8
 \Q2~0\ : cycloneive_lcell_comb
 -- Equation(s):
 -- \Q2~0_combout\ = (\SW[1]~input_o\) # ((\Q2~0_combout\ & !\SW[0]~input_o\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1100110011111100",
+	lut_mask => "1010101011111010",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \SW[1]~input_o\,
+	dataa => \SW[1]~input_o\,
 	datac => \Q2~0_combout\,
 	datad => \SW[0]~input_o\,
 	combout => \Q2~0_combout\);
 
-ww_LEDR <= \LEDR~output_o\;
+ww_LEDR(0) <= \LEDR[0]~output_o\;
 END structure;
 
 
