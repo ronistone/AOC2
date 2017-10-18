@@ -1,0 +1,8 @@
+|exercise30
+clk => state.CLK
+reset => state.ACLR
+p => nextstate.DATAB
+r => nextstate.DATAA
+m <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+

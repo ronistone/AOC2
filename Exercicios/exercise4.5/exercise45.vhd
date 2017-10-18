@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity exercise45 is
+	port(	SW: in STD_LOGIC_VECTOR(2 downto 0);
+			LEDR: out STD_LOGIC);
+end;
+
+
+architecture synth of exercise45 is
+begin
+
+	LEDR <= (not SW(0) and SW(1) and not SW(2)) or
+			  (SW(0) and not SW(1) and not SW(2)) or
+			  (not SW(0) and not SW(1) and SW(2));
+
+end;

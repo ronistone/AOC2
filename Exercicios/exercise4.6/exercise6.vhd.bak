@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_1164.all;
+
+entity exercise6 is
+	port(
+		SW : in std_logic_vector(5 downto 0);
+		HEX0 : out std_logic_vetor(6 downto 0)
+	);
+end entity;

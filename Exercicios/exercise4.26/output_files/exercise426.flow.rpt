@@ -1,5 +1,5 @@
 Flow report for exercise426
-Sat Oct  7 09:15:49 2017
+Mon Oct 16 14:23:03 2017
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Oct  7 09:15:49 2017       ;
+; Flow Status                        ; Successful - Mon Oct 16 14:23:03 2017       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; exercise426                                 ;
 ; Top-level Entity Name              ; exercise426                                 ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/07/2017 09:12:57 ;
+; Start date & time ; 10/16/2017 14:22:27 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; exercise426         ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 151841765864.150737837703709           ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 176507751023231.150817094706516        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -86,7 +86,11 @@ agreement for further details.
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --             ;
+; VHDL_INPUT_VERSION                  ; VHDL_2008                              ; VHDL_1993     ; --          ; --             ;
+; VHDL_SHOW_LMF_MAPPING_MESSAGES      ; Off                                    ; --            ; --          ; --             ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
@@ -95,26 +99,26 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:10     ; 1.0                     ; 957 MB              ; 00:01:52                           ;
-; Fitter                    ; 00:00:56     ; 1.0                     ; 1333 MB             ; 00:01:02                           ;
-; Assembler                 ; 00:00:16     ; 1.0                     ; 819 MB              ; 00:00:16                           ;
-; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 880 MB              ; 00:00:08                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 1054 MB             ; 00:00:03                           ;
-; Total                     ; 00:02:33     ; --                      ; --                  ; 00:03:21                           ;
+; Analysis & Synthesis      ; 00:00:16     ; 1.0                     ; 1072 MB             ; 00:00:36                           ;
+; Fitter                    ; 00:00:11     ; 1.0                     ; 1452 MB             ; 00:00:16                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 934 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 1002 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1170 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:34     ; --                      ; --                  ; 00:00:59                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                              ;
-+---------------------------+---------------------+--------------+------------+----------------+
-; Module Name               ; Machine Hostname    ; OS Name      ; OS Version ; Processor type ;
-+---------------------------+---------------------+--------------+------------+----------------+
-; Analysis & Synthesis      ; gabriel-Aspire-5250 ; Ubuntu 17.04 ; 17         ; x86_64         ;
-; Fitter                    ; gabriel-Aspire-5250 ; Ubuntu 17.04 ; 17         ; x86_64         ;
-; Assembler                 ; gabriel-Aspire-5250 ; Ubuntu 17.04 ; 17         ; x86_64         ;
-; TimeQuest Timing Analyzer ; gabriel-Aspire-5250 ; Ubuntu 17.04 ; 17         ; x86_64         ;
-; EDA Netlist Writer        ; gabriel-Aspire-5250 ; Ubuntu 17.04 ; 17         ; x86_64         ;
-+---------------------------+---------------------+--------------+------------+----------------+
++-------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                           ;
++---------------------------+------------------+-------------+-------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name     ; OS Version  ; Processor type ;
++---------------------------+------------------+-------------+-------------+----------------+
+; Analysis & Synthesis      ; ronistone        ; Fedora Core ; Fedora Core ; x86_64         ;
+; Fitter                    ; ronistone        ; Fedora Core ; Fedora Core ; x86_64         ;
+; Assembler                 ; ronistone        ; Fedora Core ; Fedora Core ; x86_64         ;
+; TimeQuest Timing Analyzer ; ronistone        ; Fedora Core ; Fedora Core ; x86_64         ;
+; EDA Netlist Writer        ; ronistone        ; Fedora Core ; Fedora Core ; x86_64         ;
++---------------------------+------------------+-------------+-------------+----------------+
 
 
 ------------
