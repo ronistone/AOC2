@@ -1,0 +1,13 @@
+|exercise34
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+ta => Selector0.IN3
+ta => nextstate.S1.DATAB
+tb => Selector1.IN3
+tb => nextstate.S4.DATAB
+q[0] <= lalb[2].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= lalb.DB_MAX_OUTPUT_PORT_TYPE
+d[0] <= lalb[0].DB_MAX_OUTPUT_PORT_TYPE
+d[1] <= lalb.DB_MAX_OUTPUT_PORT_TYPE
+
+
