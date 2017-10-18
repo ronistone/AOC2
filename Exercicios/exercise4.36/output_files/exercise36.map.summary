@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Oct 18 20:16:08 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : exercise36
+Top-level Entity Name : exercise36
+Family : Cyclone IV E
+Total logic elements : 20
+    Total combinational functions : 20
+    Dedicated logic registers : 10
+Total registers : 10
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

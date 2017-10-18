@@ -1,0 +1,22 @@
+|exercise36
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+n => nextstate.OUTPUTSELECT
+n => nextstate.OUTPUTSELECT
+n => nextstate.OUTPUTSELECT
+n => Selector1.IN3
+n => Selector2.IN4
+n => Selector3.IN4
+n => Selector5.IN4
+n => Selector6.IN4
+d => nextstate.OUTPUTSELECT
+d => nextstate.OUTPUTSELECT
+d => nextstate.DATAA
+q => nextstate.DATAA
+q => nextstate.DATAA
+dispense <= dispense.DB_MAX_OUTPUT_PORT_TYPE
+return5 <= return5.DB_MAX_OUTPUT_PORT_TYPE
+return10 <= return10.DB_MAX_OUTPUT_PORT_TYPE
+return2_10 <= return2_10.DB_MAX_OUTPUT_PORT_TYPE
+
+
