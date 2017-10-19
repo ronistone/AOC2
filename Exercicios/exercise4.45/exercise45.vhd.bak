@@ -1,0 +1,32 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+entity ex4_45 is
+	port(	clk, c: in STD_LOGIC;
+			a, b:	in STD_LOGIC_VECTOR(1 downto 0);
+			s:	out STD_LOGIC_VECTOR(1 downto 0));
+end;
+architecture synth of ex4_45 is
+component fulladder is
+port(a, b, cin: in STD_LOGIC;
+s, cout:
+out STD_LOGIC);
+end component;
+signal creg: STD_LOGIC;
+signal areg, breg, cout: STD_LOGIC_VECTOR(1 downto
+0);
+signal sum:
+STD_LOGIC_VECTOR(1 downto 0);
+begin
+process(clk) begin
+if rising_edge(clk) then
+areg <= a;
+breg <= b;
+creg <= c;
+s <= sum;
+end if;
+end process;
+fulladd1: fulladder
+port map(areg(0), breg(0), creg, sum(0), cout(0));
+fulladd2: fulladder
+port map(areg(1), breg(1), cout(0), sum(1),
+cout(1));
+end;

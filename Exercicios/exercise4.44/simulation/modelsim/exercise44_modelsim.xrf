@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.44/exercise44.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/roni/intelFPGA_lite/17.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.44/db/exercise44.cbx.xml
+design_name = hard_block
+design_name = exercise44
+instance = comp, \q~output\, q~output, exercise44, 1
+instance = comp, \clk~input\, clk~input, exercise44, 1
+instance = comp, \d~input\, d~input, exercise44, 1
+instance = comp, \b~input\, b~input, exercise44, 1
+instance = comp, \c~input\, c~input, exercise44, 1
+instance = comp, \a~input\, a~input, exercise44, 1
+instance = comp, \q~0\, q~0, exercise44, 1
+instance = comp, \q~reg0\, q~reg0, exercise44, 1
