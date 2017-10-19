@@ -1,0 +1,10 @@
+|exercise42
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+x => nextstate.S10.DATAB
+x => nextstate.S11.DATAB
+x => nextstate.S00.DATAB
+x => Selector0.IN2
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -100,8 +100,8 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[3]
 # SW
 #============================================================
 set_location_assignment PIN_AB28 -to clk
-set_location_assignment PIN_AC28 -to start
-set_location_assignment PIN_AC27 -to a
+set_location_assignment PIN_AC28 -to reset
+set_location_assignment PIN_AC27 -to x
 set_location_assignment PIN_AD27 -to SW[3]
 set_location_assignment PIN_AB27 -to SW[4]
 set_location_assignment PIN_AC26 -to SW[5]
@@ -118,8 +118,8 @@ set_location_assignment PIN_AA22 -to SW[15]
 set_location_assignment PIN_Y24 -to SW[16]
 set_location_assignment PIN_Y23 -to SW[17]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to clk
-set_instance_assignment -name IO_STANDARD "2.5 V" -to start
-set_instance_assignment -name IO_STANDARD "2.5 V" -to q
+set_instance_assignment -name IO_STANDARD "2.5 V" -to reset
+set_instance_assignment -name IO_STANDARD "2.5 V" -to x
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[4]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[5]

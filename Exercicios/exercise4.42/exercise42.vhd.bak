@@ -1,0 +1,50 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+entity ex4_42 is
+port(	clk, reset, x: in STD_LOGIC;
+		q:out STD_LOGIC);
+end;
+
+architecture synth of ex4_42 is
+	type statetype is (S00, S01, S10, S11);
+	signal state, nextstate: statetype;
+begin
+	-- state register
+	process(clk, reset) begin
+		if reset then state <= S00;
+			elsif rising_edge(clk) then
+				state <= nextstate;
+		end if;
+	end process;
+	-- next state
+	process(all)
+	case state
+	when S00
+	logic
+	begin
+	is
+	=> if x then
+	nextstate
+	else nextstate
+	end if;
+	when S01 => if x then
+	nextstate
+	else nextstate
+	end if;
+	when S10 =>
+	nextstate
+	when S11 =>
+	nextstate
+	when others =>
+	nextstate
+	end case;
+	end process;
+	<= S11;
+	<= S01;
+	<= S10;
+	<= S00;
+	<= S01;
+	<= S01;
+	<= S00;
+	-- output logic
+	q <= '0' when (state = S00) else '1';
+end;
