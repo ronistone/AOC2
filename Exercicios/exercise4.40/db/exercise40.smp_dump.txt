@@ -1,0 +1,6 @@
+
+State Machine - |exercise40|state
+Name state.S11 state.S1 state.S0 
+state.S0 0 0 0 
+state.S1 0 1 1 
+state.S11 1 0 1 
