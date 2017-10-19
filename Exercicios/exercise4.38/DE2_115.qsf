@@ -47,9 +47,9 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[6]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[7]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[8]
 
-set_location_assignment PIN_G19 -to q
-set_location_assignment PIN_E19 -to y
-set_location_assignment PIN_F19 -to LEDR[1]
+set_location_assignment PIN_G19 -to q[0]
+set_location_assignment PIN_E19 -to q[1]
+set_location_assignment PIN_F19 -to q[2]
 set_location_assignment PIN_F21 -to LEDR[3]
 set_location_assignment PIN_F18 -to LEDR[4]
 set_location_assignment PIN_E18 -to LEDR[5]
@@ -65,9 +65,9 @@ set_location_assignment PIN_F15 -to LEDR[14]
 set_location_assignment PIN_G15 -to LEDR[15]
 set_location_assignment PIN_G16 -to LEDR[16]
 set_location_assignment PIN_H15 -to LEDR[17]
-set_instance_assignment -name IO_STANDARD "2.5 V" -to q
-set_instance_assignment -name IO_STANDARD "2.5 V" -to y
-set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to q[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to q[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to q[2]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[4]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[5]

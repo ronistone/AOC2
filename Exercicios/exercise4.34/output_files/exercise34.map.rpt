@@ -1,5 +1,5 @@
 Analysis & Synthesis report for exercise34
-Wed Oct 18 19:49:28 2017
+Wed Oct 18 22:47:50 2017
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -44,7 +44,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Oct 18 19:49:28 2017       ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 18 22:47:50 2017       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; exercise34                                  ;
 ; Top-level Entity Name              ; exercise34                                  ;
@@ -153,7 +153,7 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 2           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -165,13 +165,13 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                     ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                              ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
-; exercise34.vhd                   ; yes             ; User VHDL File  ; /home/gabriel/AOC2/Exercicios/exercise4.34/exercise34.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                             ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                      ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------+---------+
+; exercise34.vhd                   ; yes             ; User VHDL File  ; /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.34/exercise34.vhd ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -270,7 +270,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -280,13 +280,13 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Wed Oct 18 19:48:06 2017
+    Info: Processing started: Wed Oct 18 22:47:34 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off exercise34 -c exercise34
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file exercise34.vhd
-    Info (12022): Found design unit 1: exercise34-synth File: /home/gabriel/AOC2/Exercicios/exercise4.34/exercise34.vhd Line: 8
-    Info (12023): Found entity 1: exercise34 File: /home/gabriel/AOC2/Exercicios/exercise4.34/exercise34.vhd Line: 4
+    Info (12022): Found design unit 1: exercise34-synth File: /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.34/exercise34.vhd Line: 10
+    Info (12023): Found entity 1: exercise34 File: /home/roni/Documents/UFU/AOC2/Livro/Pronto/Exercicios/exercise4.34/exercise34.vhd Line: 5
 Info (12127): Elaborating entity "exercise34" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -296,9 +296,9 @@ Info (21057): Implemented 16 device resources after synthesis - the final resour
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 8 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 967 megabytes
-    Info: Processing ended: Wed Oct 18 19:49:28 2017
-    Info: Elapsed time: 00:01:22
-    Info: Total CPU time (on all processors): 00:02:05
+    Info: Peak virtual memory: 1087 megabytes
+    Info: Processing ended: Wed Oct 18 22:47:50 2017
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:37
 
 
