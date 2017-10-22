@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
 
--- DATE "10/19/2017 08:55:39"
+-- DATE "10/19/2017 11:22:39"
 
 -- 
 -- Device: Altera EP4CE115F29C7 Package FBGA780
@@ -82,15 +82,15 @@ ENTITY 	exercise43 IS
 	clk : IN std_logic;
 	reset : IN std_logic;
 	a : IN std_logic;
-	q : OUT std_logic
+	q : BUFFER std_logic
 	);
 END exercise43;
 
 -- Design Ports Information
--- q	=>  Location: PIN_A6,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- a	=>  Location: PIN_B6,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- clk	=>  Location: PIN_J1,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- reset	=>  Location: PIN_Y2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- q	=>  Location: PIN_E21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- a	=>  Location: PIN_AC27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- clk	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- reset	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 ARCHITECTURE structure OF exercise43 IS
@@ -107,19 +107,15 @@ SIGNAL ww_clk : std_logic;
 SIGNAL ww_reset : std_logic;
 SIGNAL ww_a : std_logic;
 SIGNAL ww_q : std_logic;
-SIGNAL \reset~inputclkctrl_INCLK_bus\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \clk~inputclkctrl_INCLK_bus\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \q~output_o\ : std_logic;
 SIGNAL \clk~input_o\ : std_logic;
-SIGNAL \clk~inputclkctrl_outclk\ : std_logic;
 SIGNAL \a~input_o\ : std_logic;
 SIGNAL \state.S0~feeder_combout\ : std_logic;
 SIGNAL \reset~input_o\ : std_logic;
-SIGNAL \reset~inputclkctrl_outclk\ : std_logic;
 SIGNAL \state.S0~q\ : std_logic;
 SIGNAL \nextstate.S2~0_combout\ : std_logic;
 SIGNAL \state.S2~q\ : std_logic;
-SIGNAL \ALT_INV_reset~inputclkctrl_outclk\ : std_logic;
+SIGNAL \ALT_INV_reset~input_o\ : std_logic;
 
 COMPONENT hard_block
     PORT (
@@ -137,18 +133,14 @@ q <= ww_q;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
-
-\reset~inputclkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \reset~input_o\);
-
-\clk~inputclkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \clk~input_o\);
-\ALT_INV_reset~inputclkctrl_outclk\ <= NOT \reset~inputclkctrl_outclk\;
+\ALT_INV_reset~input_o\ <= NOT \reset~input_o\;
 auto_generated_inst : hard_block
 PORT MAP (
 	devoe => ww_devoe,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor);
 
--- Location: IOOBUF_X27_Y73_N16
+-- Location: IOOBUF_X107_Y73_N9
 \q~output\ : cycloneive_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -160,7 +152,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \q~output_o\);
 
--- Location: IOIBUF_X0_Y36_N8
+-- Location: IOIBUF_X115_Y17_N1
 \clk~input\ : cycloneive_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -171,20 +163,7 @@ PORT MAP (
 	i => ww_clk,
 	o => \clk~input_o\);
 
--- Location: CLKCTRL_G2
-\clk~inputclkctrl\ : cycloneive_clkctrl
--- pragma translate_off
-GENERIC MAP (
-	clock_type => "global clock",
-	ena_register_mode => "none")
--- pragma translate_on
-PORT MAP (
-	inclk => \clk~inputclkctrl_INCLK_bus\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	outclk => \clk~inputclkctrl_outclk\);
-
--- Location: IOIBUF_X27_Y73_N22
+-- Location: IOIBUF_X115_Y15_N8
 \a~input\ : cycloneive_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -195,7 +174,7 @@ PORT MAP (
 	i => ww_a,
 	o => \a~input_o\);
 
--- Location: LCCOMB_X27_Y72_N18
+-- Location: LCCOMB_X114_Y17_N18
 \state.S0~feeder\ : cycloneive_lcell_comb
 -- Equation(s):
 -- \state.S0~feeder_combout\ = \a~input_o\
@@ -209,7 +188,7 @@ PORT MAP (
 	datad => \a~input_o\,
 	combout => \state.S0~feeder_combout\);
 
--- Location: IOIBUF_X0_Y36_N15
+-- Location: IOIBUF_X115_Y14_N1
 \reset~input\ : cycloneive_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -220,20 +199,7 @@ PORT MAP (
 	i => ww_reset,
 	o => \reset~input_o\);
 
--- Location: CLKCTRL_G4
-\reset~inputclkctrl\ : cycloneive_clkctrl
--- pragma translate_off
-GENERIC MAP (
-	clock_type => "global clock",
-	ena_register_mode => "none")
--- pragma translate_on
-PORT MAP (
-	inclk => \reset~inputclkctrl_INCLK_bus\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	outclk => \reset~inputclkctrl_outclk\);
-
--- Location: FF_X27_Y72_N19
+-- Location: FF_X114_Y17_N19
 \state.S0\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -241,14 +207,14 @@ GENERIC MAP (
 	power_up => "low")
 -- pragma translate_on
 PORT MAP (
-	clk => \clk~inputclkctrl_outclk\,
+	clk => \clk~input_o\,
 	d => \state.S0~feeder_combout\,
-	clrn => \ALT_INV_reset~inputclkctrl_outclk\,
+	clrn => \ALT_INV_reset~input_o\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \state.S0~q\);
 
--- Location: LCCOMB_X27_Y72_N0
+-- Location: LCCOMB_X114_Y17_N8
 \nextstate.S2~0\ : cycloneive_lcell_comb
 -- Equation(s):
 -- \nextstate.S2~0_combout\ = (\a~input_o\ & \state.S0~q\)
@@ -263,7 +229,7 @@ PORT MAP (
 	datad => \state.S0~q\,
 	combout => \nextstate.S2~0_combout\);
 
--- Location: FF_X27_Y72_N1
+-- Location: FF_X114_Y17_N9
 \state.S2\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -271,9 +237,9 @@ GENERIC MAP (
 	power_up => "low")
 -- pragma translate_on
 PORT MAP (
-	clk => \clk~inputclkctrl_outclk\,
+	clk => \clk~input_o\,
 	d => \nextstate.S2~0_combout\,
-	clrn => \ALT_INV_reset~inputclkctrl_outclk\,
+	clrn => \ALT_INV_reset~input_o\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \state.S2~q\);

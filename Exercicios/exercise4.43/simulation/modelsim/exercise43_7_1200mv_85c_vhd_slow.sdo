@@ -30,7 +30,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "exercise43")
-  (DATE "10/19/2017 08:55:39")
+  (DATE "10/19/2017 11:22:39")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition")
@@ -42,8 +42,8 @@
     (INSTANCE \\q\~output\\)
     (DELAY
       (ABSOLUTE
-        (PORT i (626:626:626) (626:626:626))
-        (IOPATH i o (2908:2908:2908) (2866:2866:2866))
+        (PORT i (2749:2749:2749) (2830:2830:2830))
+        (IOPATH i o (2858:2858:2858) (2816:2816:2816))
       )
     )
   )
@@ -52,16 +52,7 @@
     (INSTANCE \\clk\~input\\)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (730:730:730) (836:836:836))
-      )
-    )
-  )
-  (CELL
-    (CELLTYPE "cycloneive_clkctrl")
-    (INSTANCE \\clk\~inputclkctrl\\)
-    (DELAY
-      (ABSOLUTE
-        (PORT inclk[0] (187:187:187) (173:173:173))
+        (IOPATH i o (700:700:700) (806:806:806))
       )
     )
   )
@@ -70,7 +61,7 @@
     (INSTANCE \\a\~input\\)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (709:709:709) (815:815:815))
+        (IOPATH i o (700:700:700) (806:806:806))
       )
     )
   )
@@ -79,7 +70,7 @@
     (INSTANCE \\state\.S0\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (3042:3042:3042) (3297:3297:3297))
+        (PORT datad (3091:3091:3091) (3348:3348:3348))
         (IOPATH datad combout (155:155:155) (139:139:139))
       )
     )
@@ -89,16 +80,7 @@
     (INSTANCE \\reset\~input\\)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (720:720:720) (826:826:826))
-      )
-    )
-  )
-  (CELL
-    (CELLTYPE "cycloneive_clkctrl")
-    (INSTANCE \\reset\~inputclkctrl\\)
-    (DELAY
-      (ABSOLUTE
-        (PORT inclk[0] (187:187:187) (173:173:173))
+        (IOPATH i o (700:700:700) (806:806:806))
       )
     )
   )
@@ -107,9 +89,9 @@
     (INSTANCE \\state\.S0\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (2144:2144:2144) (2157:2157:2157))
+        (PORT clk (1260:1260:1260) (1255:1255:1255))
         (PORT d (87:87:87) (104:104:104))
-        (PORT clrn (2182:2182:2182) (2160:2160:2160))
+        (PORT clrn (3732:3732:3732) (3974:3974:3974))
         (IOPATH (posedge clk) q (232:232:232) (232:232:232))
         (IOPATH (negedge clrn) q (223:223:223) (223:223:223))
       )
@@ -123,8 +105,8 @@
     (INSTANCE \\nextstate\.S2\~0\\)
     (DELAY
       (ABSOLUTE
-        (PORT datab (3094:3094:3094) (3346:3346:3346))
-        (PORT datad (258:258:258) (330:330:330))
+        (PORT datab (3139:3139:3139) (3394:3394:3394))
+        (PORT datad (257:257:257) (329:329:329))
         (IOPATH datab combout (361:361:361) (361:361:361))
         (IOPATH datad combout (155:155:155) (139:139:139))
       )
@@ -135,9 +117,9 @@
     (INSTANCE \\state\.S2\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (2144:2144:2144) (2157:2157:2157))
+        (PORT clk (1260:1260:1260) (1255:1255:1255))
         (PORT d (87:87:87) (104:104:104))
-        (PORT clrn (2182:2182:2182) (2160:2160:2160))
+        (PORT clrn (3732:3732:3732) (3974:3974:3974))
         (IOPATH (posedge clk) q (232:232:232) (232:232:232))
         (IOPATH (negedge clrn) q (223:223:223) (223:223:223))
       )

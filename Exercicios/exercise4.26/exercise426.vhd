@@ -7,12 +7,10 @@ entity exercise426 is
 end entity;
 
 architecture SRlatch of exercise426 is
-signal Q2   : STD_LOGIC;
-signal notQ : STD_LOGIC;
+	signal Q2   : STD_LOGIC;
+	signal notQ : STD_LOGIC;
 begin
-
-LEDR(0)    <= Q2;
-Q2   <= SW(1) nor notQ;
-notQ <= SW(0) nor Q2;
-
+	LEDR(0)    <= Q2;
+	Q2   <= SW(1) nor notQ;
+	notQ <= SW(0) nor Q2;
 end architecture;
