@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "right_rotated[0]",
+					"strict" : false
+				},
+				{
+					"name" : "right_rotated[1]",
+					"strict" : false
+				},
+				{
+					"name" : "right_rotated[2]",
+					"strict" : false
+				},
+				{
+					"name" : "right_rotated[3]",
+					"strict" : false
+				},
+				{
+					"name" : "left_rotated[0]",
+					"strict" : false
+				},
+				{
+					"name" : "left_rotated[1]",
+					"strict" : false
+				},
+				{
+					"name" : "left_rotated[2]",
+					"strict" : false
+				},
+				{
+					"name" : "left_rotated[3]",
+					"strict" : false
+				},
+				{
+					"name" : "a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "shamt[1]",
+					"strict" : false
+				},
+				{
+					"name" : "shamt[0]",
+					"strict" : false
+				},
+				{
+					"name" : "a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "a[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
