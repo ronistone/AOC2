@@ -4,6 +4,7 @@
 			"name" : "Top",
 			"pins" : [
 				{
+<<<<<<< HEAD
 					"name" : "Y[0]",
 					"strict" : false
 				},
@@ -129,6 +130,133 @@
 				},
 				{
 					"name" : "Y[31]",
+=======
+					"name" : "D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D[7]",
+					"strict" : false
+				},
+				{
+					"name" : "D[8]",
+					"strict" : false
+				},
+				{
+					"name" : "D[9]",
+					"strict" : false
+				},
+				{
+					"name" : "D[10]",
+					"strict" : false
+				},
+				{
+					"name" : "D[11]",
+					"strict" : false
+				},
+				{
+					"name" : "D[12]",
+					"strict" : false
+				},
+				{
+					"name" : "D[13]",
+					"strict" : false
+				},
+				{
+					"name" : "D[14]",
+					"strict" : false
+				},
+				{
+					"name" : "D[15]",
+					"strict" : false
+				},
+				{
+					"name" : "D[16]",
+					"strict" : false
+				},
+				{
+					"name" : "D[17]",
+					"strict" : false
+				},
+				{
+					"name" : "D[18]",
+					"strict" : false
+				},
+				{
+					"name" : "D[19]",
+					"strict" : false
+				},
+				{
+					"name" : "D[20]",
+					"strict" : false
+				},
+				{
+					"name" : "D[21]",
+					"strict" : false
+				},
+				{
+					"name" : "D[22]",
+					"strict" : false
+				},
+				{
+					"name" : "D[23]",
+					"strict" : false
+				},
+				{
+					"name" : "D[24]",
+					"strict" : false
+				},
+				{
+					"name" : "D[25]",
+					"strict" : false
+				},
+				{
+					"name" : "D[26]",
+					"strict" : false
+				},
+				{
+					"name" : "D[27]",
+					"strict" : false
+				},
+				{
+					"name" : "D[28]",
+					"strict" : false
+				},
+				{
+					"name" : "D[29]",
+					"strict" : false
+				},
+				{
+					"name" : "D[30]",
+					"strict" : false
+				},
+				{
+					"name" : "D[31]",
+>>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
 					"strict" : false
 				},
 				{
@@ -136,7 +264,11 @@
 					"strict" : false
 				},
 				{
+<<<<<<< HEAD
 					"name" : "F[2]",
+=======
+					"name" : "C[2]",
+>>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
 					"strict" : false
 				},
 				{
@@ -144,11 +276,19 @@
 					"strict" : false
 				},
 				{
+<<<<<<< HEAD
 					"name" : "F[1]",
 					"strict" : false
 				},
 				{
 					"name" : "F[0]",
+=======
+					"name" : "C[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C[0]",
+>>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
 					"strict" : false
 				},
 				{
