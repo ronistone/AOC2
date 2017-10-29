@@ -1,0 +1,29 @@
+module test_alu32_v;
+
+	// Inputs
+	logic [31:0] A;
+	logic [31:0] B;
+	logic [2:0] F;
+	
+	// Outputs
+	logic [31:0] Y;
+	logic Zero, Overflow;
+	
+	// Internal signals
+	reg clk;
+	
+	// Simulation variables
+	logic [31:0]  vectornum, errors;
+	logic [100:0] testvectors[10000:0];
+	logic [31:0]  ExpectedY;
+	logic	ExpectedZero;
+	logic	ExpectedOverflow;
+	
+	// Instantiate the Unit Under Test (UUT)
+	alu32 uut (A, B, F, Y, Zero, Overflow);
+	
+	// generate clock
+	always
+		begin
+			clk = 1; #5; clk = 0; #5;
+		end

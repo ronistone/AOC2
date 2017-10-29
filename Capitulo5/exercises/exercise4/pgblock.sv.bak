@@ -1,0 +1,20 @@
+module pgblock(input logic [14:0] a, b,
+					output logic [14:0] p, g);
+					
+	assign p = a | b;
+	assign g = a & b;
+endmodule
+
+module pgblackblock(input logic [7:0] pik, gik, pkj, gkj,
+							output logic [7:0] pij, gij);
+
+	assign pij = pik & pkj;
+	assign gij = gik | (pik & gkj);
+
+endmodule
+
+module sumblock(input logic [15:0] a, b, g,
+					 output logic [15:0] s);
+	assign s = a ^ b ^ g;
+
+endmodule

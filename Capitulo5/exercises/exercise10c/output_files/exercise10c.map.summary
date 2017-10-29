@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Oct 29 13:34:44 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : exercise10c
+Top-level Entity Name : exercise10c
+Family : Cyclone IV E
+Total logic elements : 130
+    Total combinational functions : 130
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 100
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
