@@ -1,9 +1,5 @@
 EDA Netlist Writer report for exercise9
-<<<<<<< HEAD
-Sun Oct 29 13:29:43 2017
-=======
-Sun Oct 29 13:32:29 2017
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
+Sun Oct 29 19:55:08 2017
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -41,11 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-<<<<<<< HEAD
-; EDA Netlist Writer Status ; Successful - Sun Oct 29 13:29:43 2017 ;
-=======
-; EDA Netlist Writer Status ; Successful - Sun Oct 29 13:32:29 2017 ;
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
+; EDA Netlist Writer Status ; Successful - Sun Oct 29 19:55:08 2017 ;
 ; Revision Name             ; exercise9                             ;
 ; Top-level Entity Name     ; exercise9                             ;
 ; Family                    ; Cyclone IV E                          ;
@@ -75,7 +67,6 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------------+
 
 
-<<<<<<< HEAD
 +---------------------------------------------------------------------------------------------------------------------------------+
 ; Simulation Generated Files                                                                                                      ;
 +---------------------------------------------------------------------------------------------------------------------------------+
@@ -90,22 +81,6 @@ agreement for further details.
 ; /home/roni/Documents/UFU/AOC2/Livro/Pronto/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_min_1200mv_0c_v_fast.sdo ;
 ; /home/roni/Documents/UFU/AOC2/Livro/Pronto/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_v.sdo                    ;
 +---------------------------------------------------------------------------------------------------------------------------------+
-=======
-+---------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                              ;
-+---------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                         ;
-+---------------------------------------------------------------------------------------------------------+
-; /home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_7_1200mv_85c_slow.svo    ;
-; /home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_7_1200mv_0c_slow.svo     ;
-; /home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_min_1200mv_0c_fast.svo   ;
-; /home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9.svo                      ;
-; /home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_7_1200mv_85c_v_slow.sdo  ;
-; /home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_7_1200mv_0c_v_slow.sdo   ;
-; /home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_min_1200mv_0c_v_fast.sdo ;
-; /home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/exercise9_v.sdo                    ;
-+---------------------------------------------------------------------------------------------------------+
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
 
 
 +-----------------------------+
@@ -114,8 +89,7 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-<<<<<<< HEAD
-    Info: Processing started: Sun Oct 29 13:29:42 2017
+    Info: Processing started: Sun Oct 29 19:55:07 2017
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off exercise9 -c exercise9
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file exercise9_7_1200mv_85c_slow.svo in folder "/home/roni/Documents/UFU/AOC2/Livro/Pronto/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
@@ -127,27 +101,9 @@ Info (204019): Generated file exercise9_7_1200mv_0c_v_slow.sdo in folder "/home/
 Info (204019): Generated file exercise9_min_1200mv_0c_v_fast.sdo in folder "/home/roni/Documents/UFU/AOC2/Livro/Pronto/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file exercise9_v.sdo in folder "/home/roni/Documents/UFU/AOC2/Livro/Pronto/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1172 megabytes
-    Info: Processing ended: Sun Oct 29 13:29:43 2017
+    Info: Peak virtual memory: 1170 megabytes
+    Info: Processing ended: Sun Oct 29 19:55:08 2017
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
-=======
-    Info: Processing started: Sun Oct 29 13:32:24 2017
-Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off exercise9 -c exercise9
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file exercise9_7_1200mv_85c_slow.svo in folder "/home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file exercise9_7_1200mv_0c_slow.svo in folder "/home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file exercise9_min_1200mv_0c_fast.svo in folder "/home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file exercise9.svo in folder "/home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file exercise9_7_1200mv_85c_v_slow.sdo in folder "/home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file exercise9_7_1200mv_0c_v_slow.sdo in folder "/home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file exercise9_min_1200mv_0c_v_fast.sdo in folder "/home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file exercise9_v.sdo in folder "/home/gabriel/AOC2/Capitulo5/exercises/exercise9/simulation/modelsim/" for EDA simulation tool
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1058 megabytes
-    Info: Processing ended: Sun Oct 29 13:32:29 2017
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:04
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
 
 

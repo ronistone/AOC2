@@ -30,11 +30,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "exercise9")
-<<<<<<< HEAD
-  (DATE "10/29/2017 13:29:43")
-=======
-  (DATE "10/29/2017 13:32:29")
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
+  (DATE "10/29/2017 19:55:08")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition")
@@ -43,11 +39,7 @@
 
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[0\]\~output)
-=======
-    (INSTANCE D\[0\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (236:236:236) (256:256:256))
@@ -57,11 +49,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[1\]\~output)
-=======
-    (INSTANCE D\[1\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (742:742:742) (836:836:836))
@@ -71,11 +59,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[2\]\~output)
-=======
-    (INSTANCE D\[2\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (835:835:835) (951:951:951))
@@ -85,11 +69,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[3\]\~output)
-=======
-    (INSTANCE D\[3\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1089:1089:1089) (1227:1227:1227))
@@ -99,11 +79,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[4\]\~output)
-=======
-    (INSTANCE D\[4\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (936:936:936) (1050:1050:1050))
@@ -113,11 +89,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[5\]\~output)
-=======
-    (INSTANCE D\[5\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1483:1483:1483) (1645:1645:1645))
@@ -127,11 +99,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[6\]\~output)
-=======
-    (INSTANCE D\[6\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1078:1078:1078) (1194:1194:1194))
@@ -141,11 +109,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[7\]\~output)
-=======
-    (INSTANCE D\[7\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (760:760:760) (862:862:862))
@@ -155,11 +119,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[8\]\~output)
-=======
-    (INSTANCE D\[8\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1010:1010:1010) (1130:1130:1130))
@@ -169,11 +129,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[9\]\~output)
-=======
-    (INSTANCE D\[9\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1677:1677:1677) (1874:1874:1874))
@@ -183,11 +139,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[10\]\~output)
-=======
-    (INSTANCE D\[10\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (824:824:824) (927:927:927))
@@ -197,11 +149,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[11\]\~output)
-=======
-    (INSTANCE D\[11\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (517:517:517) (566:566:566))
@@ -211,11 +159,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[12\]\~output)
-=======
-    (INSTANCE D\[12\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1150:1150:1150) (1278:1278:1278))
@@ -225,11 +169,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[13\]\~output)
-=======
-    (INSTANCE D\[13\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (694:694:694) (802:802:802))
@@ -239,11 +179,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[14\]\~output)
-=======
-    (INSTANCE D\[14\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1265:1265:1265) (1407:1407:1407))
@@ -253,11 +189,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[15\]\~output)
-=======
-    (INSTANCE D\[15\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (919:919:919) (1049:1049:1049))
@@ -267,11 +199,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[16\]\~output)
-=======
-    (INSTANCE D\[16\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (3010:3010:3010) (3386:3386:3386))
@@ -281,11 +209,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[17\]\~output)
-=======
-    (INSTANCE D\[17\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1460:1460:1460) (1592:1592:1592))
@@ -295,11 +219,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[18\]\~output)
-=======
-    (INSTANCE D\[18\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (710:710:710) (795:795:795))
@@ -309,11 +229,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[19\]\~output)
-=======
-    (INSTANCE D\[19\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1172:1172:1172) (1327:1327:1327))
@@ -323,11 +239,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[20\]\~output)
-=======
-    (INSTANCE D\[20\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (960:960:960) (1066:1066:1066))
@@ -337,11 +249,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[21\]\~output)
-=======
-    (INSTANCE D\[21\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (507:507:507) (560:560:560))
@@ -351,11 +259,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[22\]\~output)
-=======
-    (INSTANCE D\[22\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (401:401:401) (440:440:440))
@@ -365,11 +269,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[23\]\~output)
-=======
-    (INSTANCE D\[23\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (908:908:908) (1027:1027:1027))
@@ -379,11 +279,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[24\]\~output)
-=======
-    (INSTANCE D\[24\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (3064:3064:3064) (3444:3444:3444))
@@ -393,11 +289,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[25\]\~output)
-=======
-    (INSTANCE D\[25\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (890:890:890) (1004:1004:1004))
@@ -407,11 +299,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[26\]\~output)
-=======
-    (INSTANCE D\[26\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (587:587:587) (669:669:669))
@@ -421,11 +309,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[27\]\~output)
-=======
-    (INSTANCE D\[27\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1089:1089:1089) (1182:1182:1182))
@@ -435,11 +319,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[28\]\~output)
-=======
-    (INSTANCE D\[28\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1381:1381:1381) (1545:1545:1545))
@@ -449,11 +329,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[29\]\~output)
-=======
-    (INSTANCE D\[29\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (640:640:640) (736:736:736))
@@ -463,11 +339,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[30\]\~output)
-=======
-    (INSTANCE D\[30\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (1295:1295:1295) (1445:1445:1445))
@@ -477,11 +349,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_obuf")
-<<<<<<< HEAD
     (INSTANCE Y\[31\]\~output)
-=======
-    (INSTANCE D\[31\]\~output)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT i (225:225:225) (246:246:246))
@@ -500,11 +368,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-<<<<<<< HEAD
     (INSTANCE F\[2\]\~input)
-=======
-    (INSTANCE C\[2\]\~input)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (IOPATH i o (338:338:338) (717:717:717))
@@ -522,11 +386,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[0\]\~0)
-=======
-    (INSTANCE Y\[0\]\~0)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1484:1484:1484) (1274:1274:1274))
@@ -538,11 +398,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-<<<<<<< HEAD
     (INSTANCE F\[0\]\~input)
-=======
-    (INSTANCE C\[0\]\~input)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (IOPATH i o (298:298:298) (677:677:677))
@@ -551,11 +407,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-<<<<<<< HEAD
     (INSTANCE F\[1\]\~input)
-=======
-    (INSTANCE C\[1\]\~input)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (IOPATH i o (288:288:288) (667:667:667))
@@ -589,11 +441,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[31\]\~1)
-=======
-    (INSTANCE Y\[31\]\~1)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1805:1805:1805) (2026:2026:2026))
@@ -632,11 +480,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[30\]\~2)
-=======
-    (INSTANCE Y\[30\]\~2)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1745:1745:1745) (1942:1942:1942))
@@ -666,11 +510,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[29\]\~3)
-=======
-    (INSTANCE Y\[29\]\~3)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1702:1702:1702) (1459:1459:1459))
@@ -700,11 +540,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[28\]\~4)
-=======
-    (INSTANCE Y\[28\]\~4)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT dataa (1962:1962:1962) (2237:2237:2237))
@@ -734,11 +570,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[27\]\~5)
-=======
-    (INSTANCE Y\[27\]\~5)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT dataa (1508:1508:1508) (1291:1291:1291))
@@ -768,11 +600,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[26\]\~6)
-=======
-    (INSTANCE Y\[26\]\~6)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1702:1702:1702) (1458:1458:1458))
@@ -793,11 +621,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[25\]\~7)
-=======
-    (INSTANCE Y\[25\]\~7)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1891:1891:1891) (2141:2141:2141))
@@ -836,11 +660,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[24\]\~8)
-=======
-    (INSTANCE Y\[24\]\~8)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1533:1533:1533) (1304:1304:1304))
@@ -870,11 +690,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[23\]\~9)
-=======
-    (INSTANCE Y\[23\]\~9)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1541:1541:1541) (1311:1311:1311))
@@ -904,11 +720,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[22\]\~10)
-=======
-    (INSTANCE Y\[22\]\~10)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1707:1707:1707) (1463:1463:1463))
@@ -938,11 +750,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[21\]\~11)
-=======
-    (INSTANCE Y\[21\]\~11)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1517:1517:1517) (1298:1298:1298))
@@ -963,11 +771,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[20\]\~12)
-=======
-    (INSTANCE Y\[20\]\~12)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT dataa (1506:1506:1506) (1290:1290:1290))
@@ -997,11 +801,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[19\]\~13)
-=======
-    (INSTANCE Y\[19\]\~13)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1940:1940:1940) (2193:2193:2193))
@@ -1031,11 +831,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[18\]\~14)
-=======
-    (INSTANCE Y\[18\]\~14)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1482:1482:1482) (1272:1272:1272))
@@ -1065,11 +861,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[17\]\~15)
-=======
-    (INSTANCE Y\[17\]\~15)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1516:1516:1516) (1297:1297:1297))
@@ -1108,11 +900,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[16\]\~16)
-=======
-    (INSTANCE Y\[16\]\~16)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1516:1516:1516) (1297:1297:1297))
@@ -1142,11 +930,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[15\]\~17)
-=======
-    (INSTANCE Y\[15\]\~17)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1921:1921:1921) (2173:2173:2173))
@@ -1176,11 +960,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[14\]\~18)
-=======
-    (INSTANCE Y\[14\]\~18)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1534:1534:1534) (1305:1305:1305))
@@ -1201,11 +981,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[13\]\~19)
-=======
-    (INSTANCE Y\[13\]\~19)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT dataa (2047:2047:2047) (2310:2310:2310))
@@ -1235,11 +1011,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[12\]\~20)
-=======
-    (INSTANCE Y\[12\]\~20)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1516:1516:1516) (1297:1297:1297))
@@ -1278,11 +1050,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[11\]\~21)
-=======
-    (INSTANCE Y\[11\]\~21)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1718:1718:1718) (1915:1915:1915))
@@ -1303,11 +1071,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[10\]\~22)
-=======
-    (INSTANCE Y\[10\]\~22)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1935:1935:1935) (2186:2186:2186))
@@ -1346,11 +1110,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[9\]\~23)
-=======
-    (INSTANCE Y\[9\]\~23)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1530:1530:1530) (1301:1301:1301))
@@ -1371,11 +1131,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[8\]\~24)
-=======
-    (INSTANCE Y\[8\]\~24)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1642:1642:1642) (1414:1414:1414))
@@ -1405,11 +1161,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[7\]\~25)
-=======
-    (INSTANCE Y\[7\]\~25)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1707:1707:1707) (1463:1463:1463))
@@ -1448,11 +1200,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[6\]\~26)
-=======
-    (INSTANCE Y\[6\]\~26)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT dataa (1724:1724:1724) (1926:1926:1926))
@@ -1482,11 +1230,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[5\]\~27)
-=======
-    (INSTANCE Y\[5\]\~27)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (2070:2070:2070) (2355:2355:2355))
@@ -1507,11 +1251,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[4\]\~28)
-=======
-    (INSTANCE Y\[4\]\~28)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1643:1643:1643) (1415:1415:1415))
@@ -1550,11 +1290,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[3\]\~29)
-=======
-    (INSTANCE Y\[3\]\~29)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datab (1670:1670:1670) (1438:1438:1438))
@@ -1584,11 +1320,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[2\]\~30)
-=======
-    (INSTANCE Y\[2\]\~30)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT dataa (1632:1632:1632) (1825:1825:1825))
@@ -1618,11 +1350,7 @@
   )
   (CELL
     (CELLTYPE "cycloneive_lcell_comb")
-<<<<<<< HEAD
     (INSTANCE Bout\[1\]\~31)
-=======
-    (INSTANCE Y\[1\]\~31)
->>>>>>> d67c3384006479cac0a60286377fb647bb4aff30
     (DELAY
       (ABSOLUTE
         (PORT datac (1648:1648:1648) (1420:1420:1420))

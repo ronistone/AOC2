@@ -1,0 +1,156 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+
+// 
+// Device: Altera EP4CE115F29C7 Package FBGA780
+// 
+
+//
+// This file contains Slow Corner delays for the design using part EP4CE115F29C7,
+// with speed grade 7, core voltage 1.2VmV, and temperature 85 Celsius
+//
+
+// 
+// This SDF file should be used for ModelSim-Altera (SystemVerilog) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "exercise21")
+  (DATE "10/29/2017 20:18:07")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus Prime")
+  (VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE y\[0\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (5031:5031:5031) (5428:5428:5428))
+        (IOPATH i o (2908:2908:2908) (2866:2866:2866))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE y\[1\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (5108:5108:5108) (5470:5470:5470))
+        (IOPATH i o (2848:2848:2848) (2806:2806:2806))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE y\[2\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (5088:5088:5088) (5440:5440:5440))
+        (IOPATH i o (2848:2848:2848) (2806:2806:2806))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE y\[3\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (6331:6331:6331) (6779:6779:6779))
+        (IOPATH i o (2848:2848:2848) (2806:2806:2806))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE y\[4\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (5987:5987:5987) (6423:6423:6423))
+        (IOPATH i o (2848:2848:2848) (2806:2806:2806))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE y\[5\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (5704:5704:5704) (6154:6154:6154))
+        (IOPATH i o (2858:2858:2858) (2816:2816:2816))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE y\[6\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (5064:5064:5064) (5487:5487:5487))
+        (IOPATH i o (2878:2878:2878) (2836:2836:2836))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE y\[7\]\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (5064:5064:5064) (5487:5487:5487))
+        (IOPATH i o (2868:2868:2868) (2826:2826:2826))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_ibuf")
+    (INSTANCE a\[0\]\~input)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (700:700:700) (806:806:806))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_ibuf")
+    (INSTANCE a\[1\]\~input)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (700:700:700) (806:806:806))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_ibuf")
+    (INSTANCE a\[2\]\~input)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (700:700:700) (806:806:806))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_ibuf")
+    (INSTANCE a\[3\]\~input)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (700:700:700) (806:806:806))
+      )
+    )
+  )
+)
